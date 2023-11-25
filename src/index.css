@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Aclonica&family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins&family=Preahvihear&family=Raleway&family=Roboto&family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Aclonica&family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins&family=Preahvihear&family=Raleway&family=Roboto&family=Rubik&family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+|
+
+body{
+    font-family: Roboto;
+}

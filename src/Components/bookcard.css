@@ -1,0 +1,63 @@
+.card1{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: rgb(0, 131, 131);
+    justify-content: space-between;
+box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.card1l img{
+    width: 202.893px;
+    height: 299.216px;
+    border-radius:10px ;
+    transform: rotate(-3.496deg);
+    flex-shrink: 0;
+}
+.card1r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    align-items: flex-start;
+
+}
+
+.card1r h1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card1r p{
+    color: #D2D2D2;
+font-family: Roboto;
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.card1r button{
+    width: 148px;
+    height: 33px;
+    align-self: center;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #FFF;
+    flex-shrink: 0;
+    color: #FFF;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.card1r button :hover{
+    cursor: pointer !important;
+}
