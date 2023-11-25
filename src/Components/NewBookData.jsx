@@ -86,7 +86,7 @@ let obj={
                     <h4>Published on {" "+details.publishedDate}</h4>
                 </div>
                 <h3>{" "+details.authors[0]}</h3>
-                <p>{details.description}</p>
+                <p>{(details.description)?details.description:'This non-fiction short-form eBook features content which is adapted from the audiobook Harry Potter: A History of Magic - inspired by the British Library exhibition of the same name. How to become invisible, to make someone fall in love with you, to transform into another creature: these are all things that people have believed in, yearned for, or feared, throughout history. Spells and charms have captured the imagination for hundreds of years. Warding off evil is also something that has concerned people throughout history. From werewolves to all manner of snakes in the wizarding world, youd learn how to face a number of strange and frightening forces in Defence Against the Dark Arts classes. This eBook short examines the colourful characters and curious incidents of the real history of magic, and how they relate to the Hogwarts lesson subjects of Charms and Defence Against the Dark Arts. The history of magic is as long as time and as wide as the world. In every culture, in every age, in every place and, probably, in every heart, there is magic'}</p>
                 <div className='c4r2'>
                     <h2>Average rating 4.5</h2>
                     <h2>Rating count 67</h2>

@@ -78,3 +78,7 @@ line-height: normal;
     background-color: red;
     cursor: pointer !important;
 }
+button:hover{
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
