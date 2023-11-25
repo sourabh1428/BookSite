@@ -1,10 +1,16 @@
 import React from 'react';
+import './bookcard.css'
 
-const ImageBookCard = ({details}) => {
+const ImageBookCard = ({details,setData,setFlag,imgdetails}) => {
     
+    function handleClick(){
+        setFlag(false);
+        setData(details);
+    }
+
     return (
-        <div>
-            <img src={details}/>
+        <div className='downImage' onClick={handleClick}>
+            <img  src={imgdetails}/>
         </div>  
     );
 }

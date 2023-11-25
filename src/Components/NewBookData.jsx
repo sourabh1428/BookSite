@@ -78,25 +78,25 @@ let obj={
         <div className='card411'>
         <div className='card4'>
             <div className='c4l'>
-                <img src={details.volumeInfo.imageLinks.thumbnail} alt="" />
+                <img src={details.imageLinks.thumbnail} alt="" />
             </div>
             <div className='c4r'>
                 <div className='c4r1'>
-                    <h1>{details.volumeInfo.title}</h1>
-                    <h4>Published on {" "+details.volumeInfo.publishedDate}</h4>
+                    <h1>{details.title}</h1>
+                    <h4>Published on {" "+details.publishedDate}</h4>
                 </div>
-                <h3>{" "+details.volumeInfo.authors[0]}</h3>
-                <p>{details.volumeInfo.description}</p>
+                <h3>{" "+details.authors[0]}</h3>
+                <p>{details.description}</p>
                 <div className='c4r2'>
                     <h2>Average rating 4.5</h2>
                     <h2>Rating count 67</h2>
-                    <h2>Publisher {details.volumeInfo.publisher}</h2>
-                    <h2>Language :{details.volumeInfo.language}</h2>
+                    <h2>Publisher {details.publisher}</h2>
+                    <h2>Language :{details.language}</h2>
 
                 </div>
                 <div className='c4r3'>
-                    <a href={details.volumeInfo.previewLink}><button >Now read! </button></a>
-                    <a href={details.volumeInfo.infoLink}><button>More info</button></a>
+                    <a href={details.previewLink}><button >Now read! </button></a>
+                    <a href={details.infoLink}><button>More info</button></a>
                 </div>
             </div>
         </div>

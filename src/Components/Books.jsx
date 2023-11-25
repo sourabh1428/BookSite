@@ -46,8 +46,11 @@ const Books = () => {
         {Array.isArray(books) && books.map((e, i) => {
           return (
             <ImageBookCard
+            setData={setData}
+            setFlag={setFlag}
               key={i}
-              details={e.volumeInfo.imageLinks.thumbnail}
+              imgdetails={e.volumeInfo.imageLinks.thumbnail}
+              details={e.volumeInfo}
             />
           );
         })}
