@@ -47,7 +47,7 @@ const Books = () => {
           return (
             <ImageBookCard
               key={i}
-              details={e.volumeInfo.imageLinks.smallThumbnail}
+              details={e.volumeInfo.imageLinks.thumbnail}
             />
           );
         })}

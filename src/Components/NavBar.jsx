@@ -50,9 +50,9 @@ const NavBar = () => {
             </div>
             <div className='nav-right'>
             <img src={s1} alt="" />
-            <img src={s3} alt="" />
-            <img src={s2} alt="" />
             <img src={s4} alt="" />
+            <img src={s2} alt="" />
+            <img src={s3} alt="" />
 
 
             </div>
